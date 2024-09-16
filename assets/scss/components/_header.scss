@@ -1,0 +1,25 @@
+.header{
+    padding: 1rem 0;
+    background: $black;
+    .site-brand{
+        width: 250px;
+        margin-right: 2.5rem;
+        h1{
+           a{
+              color: #fff;
+            }
+           }
+    }
+    .navbar-nav{
+        .nav-item{
+            .nav-link{
+                color: $white;
+                text-transform: uppercase;
+                &.active{
+                    color: $white;
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+}

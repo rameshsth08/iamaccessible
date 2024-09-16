@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+$font-primary: "Quicksand", sans-serif;
+$base-font-weight: 400;
+$font-bold: 700;
+$font-s-bold: 600;
+$font-m-bold: 500;
+body{
+    font-family: $font-primary;
+    font-size: 1.125rem;
+    font-weight: $base-font-weight;
+    @media only screen and (max-width: 668px){
+        font-size: 1rem;
+     }
+}
+.font-s{
+    font-size: 0.875rem;
+    font-weight: $font-m-bold;
+}
+
+h2{
+    font-size: 2.375rem;
+    font-weight: $font-s-bold;
+}
+h3{
+    font-size: 2.125rem;
+    font-weight: $font-s-bold;
+}
+h4{
+    font-size: 1.75rem;
+    font-weight: $font-s-bold;
+    @media only screen and (max-width: 992px){
+        font-size: 1.25rem;
+    }
+}
+h5{
+    font-size: 1.375rem;
+    font-weight: $font-s-bold;
+}
+
+
+@media only screen and (max-width: 668px){
+    h2{
+        font-size: 1.5rem;
+        font-weight: $font-s-bold;
+    }
+    h3{
+        font-size: 1.375rem;
+        font-weight: $font-s-bold;
+    }
+    h4{
+        font-size: 1.25rem;
+        font-weight: $font-s-bold;
+    }
+    h5{
+        font-size: 1rem;
+        font-weight: $font-s-bold;
+    }
+ }
