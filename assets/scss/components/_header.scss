@@ -1,6 +1,7 @@
 .header{
     padding: 1rem 0;
-    background: $black;
+    background: $black; 
+    position: relative;
     .site-brand{
         width: 250px;
         margin-right: 2.5rem;
@@ -15,9 +16,28 @@
             .nav-link{
                 color: $white;
                 text-transform: uppercase;
+                font-size: 16px;
+                transition: all 0.3s ease-in-out;
                 &.active{
                     color: $white;
                     opacity: 0.5;
+                }
+                &:hover{
+                    opacity: 0.5;
+                }
+            }
+        }
+    }
+    .header-right{
+        position: absolute;
+        right: 2rem;
+        top: calc(50% - 0.825rem);
+        ul{
+            display: flex;
+            gap: 1rem;
+            li{
+                a{
+                    color: $white;
                 }
             }
         }

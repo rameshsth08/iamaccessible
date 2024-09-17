@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- header start -->
     <div class="header">
             <div class="container">
                 <nav class="navbar navbar-expand-lg">
@@ -25,9 +26,6 @@
                             <a class="nav-link active" href="#">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Our Story</a>
-                          </li>
-                          <li class="nav-item">
                             <a class="nav-link" href="#">Brand Engineering</a>
                           </li>
                           <li class="nav-item">
@@ -40,21 +38,253 @@
                             <a class="nav-link" href="#">Partners</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="#">Contact Us</a>
+                            <a class="nav-link" href="#">Shop</a>
                           </li>
                         </ul>
                       </div>
                   </nav>
+                  <div class="header-right">
+                    <ul>
+                      <li>
+                        <a href="#">
+                          <svg class="i-icon">
+                            <use xlink:href="assets/icon/icon.svg#i_cart"></use>
+                          </svg>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" id="sidemenu_toggle">
+                          <svg class="i-icon">
+                            <use xlink:href="assets/icon/icon.svg#i_menu"></use>
+                          </svg>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
             </div>
     </div>
+    <!-- header end -->
+     <!-- ====================================================================================== 
+      ======================================================================================  -->
+    <!-- sidebar menu start-->
+    <div class="side-menu">
+      <div class="inner-wrapper">
+          <span class="btn_close" id="btn_sideNavClose"><i></i><i></i></span>
+          <nav class="side-nav w-100">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link scroll" href="#">Shop</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link scroll" href="#">Our Story</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link scroll" href="#">Careers</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link scroll" href="#">Updates</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link scroll" href="#">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link scroll" href="#">Email Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link scroll" href="#">Privacy Policy</a>
+                  </li>
+              </ul>
+          </nav>
+
+          <div class="side-footer w-100">
+              <div class="banner-icons">
+                  <a href="#">
+                    <svg class="i-icon">
+                      <use xlink:href="assets/icon/icon.svg#i_facebook"></use>
+                    </svg>
+                  </a>
+                  <a href="#">
+                    <svg class="i-icon">
+                      <use xlink:href="assets/icon/icon.svg#i_instagram"></use>
+                    </svg>
+                  </a>
+                  <a href="#">
+                    <svg class="i-icon">
+                      <use xlink:href="assets/icon/icon.svg#i_x"></use>
+                    </svg>
+                  </a>
+              </div>
+              <p>I'mAccessible © 2024</p>
+          </div>
+      </div>
+    </div>
+    <!-- sidebar menu end-->
+    <!-- ====================================================================================== 
+      ======================================================================================  -->
+    <!-- Banner Start -->
+    <div class="banner">
+      <figure>
+        <video class="videoembed" autoplay muted loop>
+          <source src="assets/video/video_2024-09-17_11-40-11.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </figure>
+    </div>
+    <!-- Banner End -->
+    <!-- ====================================================================================== 
+    ======================================================================================  -->
+    <!-- Counter start -->
+    <div class="counter">
+      <div class="container">
+        <div class="row gy-40 align-items-center justify-content-lg-between justify-content-center">
+          <div class="col-xl-auto col-lg-4 col-md-6 counter-divider">
+              <div class="counter-card">
+                  <h3 class="counter-card_number">
+                      <span class="counter-number">26</span>+
+                  </h3>
+                  <h4 class="counter-card_title">Years of Experience</h4>
+                  <p class="counter-card_text">We are a creative agency brands building insightful strategy, creating unique designs helping</p>
+              </div>
+          </div>
+          <div class="col-xl-auto col-lg-4 col-md-6 counter-divider">
+              <div class="counter-card">
+                  <h3 class="counter-card_number">
+                      <span class="counter-number">347</span>+
+                  </h3>
+                  <h4 class="counter-card_title">Successful Projects</h4>
+                  <p class="counter-card_text">We are a creative agency brands building insightful strategy, creating unique designs helping</p>
+              </div>
+          </div>
+          <div class="col-xl-auto col-lg-4 col-md-6 counter-divider">
+              <div class="counter-card">
+                  <h3 class="counter-card_number">
+                      <span class="counter-number">139</span>+
+                  </h3>
+                  <h4 class="counter-card_title">Satisfied Customers</h4>
+                  <p class="counter-card_text">We are a creative agency brands building insightful strategy, creating unique designs helping</p>
+              </div>
+          </div>
+      </div>
+      </div>
+    </div>
+    <!-- Counter end -->
+    <!-- ====================================================================================== 
+      ======================================================================================  -->
+    <!-- Footer start -->
     <div class="footer">
         <div class="container">
             <ul class="footer-nav">
                 <li>I'mAccessible © 2024</li>
-                <li><a href="#">PRIVACY POLICY</a></li>
-                <li><a href="#">Email Us</a></li>
+                
             </ul>
         </div>
     </div>
+    <!-- Footer end -->
+     <!-- ====================================================================================== 
+      ======================================================================================  -->
+    <!-- sidebar close btn start-->
+    <a id="close_side_menu" href="javascript:void(0);" style="display: none;"></a>
+    <!-- sidebar close btn end-->
+     <div class="cursor"></div>
+    
+
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/jquery.counterup.min.js"></script>
+    <script>
+      /* ===================================
+       Side Menu
+   ====================================== */
+      if ($("#sidemenu_toggle").length) {
+        $("#sidemenu_toggle").on("click", function () {
+            
+            $(".pushwrap").toggleClass("active");
+            $(".side-menu").addClass("side-menu-active"), $("#close_side_menu").fadeIn(700)
+        }), $("#close_side_menu").on("click", function () {
+            $(".side-menu").removeClass("side-menu-active"), $(this).fadeOut(200), $(".pushwrap").removeClass("active")
+        }), $(".side-nav .navbar-nav").on("click", function () {
+            $(".side-menu").removeClass("side-menu-active"), $("#close_side_menu").fadeOut(200), $(".pushwrap").removeClass("active")
+        }), $("#btn_sideNavClose").on("click", function () {
+            $(".side-menu").removeClass("side-menu-active"), $("#close_side_menu").fadeOut(200), $(".pushwrap").removeClass("active")
+        });
+    }
+    </script>
+
+    <script>
+      
+/* =============================================================================
+-----------------------------  cursor Animation  -----------------------------
+============================================================================= */
+     (function () {
+    const link = document.querySelectorAll('.hover-this');
+    const cursor = document.querySelector('.cursor');
+    const animateit = function (e) {
+        const hoverAnim = this.querySelector('.hover-anim');
+        const { offsetX: x, offsetY: y } = e,
+            { offsetWidth: width, offsetHeight: height } = this,
+            move = 25,
+            xMove = x / width * (move * 2) - move,
+            yMove = y / height * (move * 2) - move;
+        hoverAnim.style.transform = `translate(${xMove}px, ${yMove}px)`;
+        if (e.type === 'mouseleave') hoverAnim.style.transform = '';
+    };
+    const editCursor = e => {
+        const { clientX: x, clientY: y } = e;
+        cursor.style.left = x + 'px';
+        cursor.style.top = y + 'px';
+    };
+    link.forEach(b => b.addEventListener('mousemove', animateit));
+    link.forEach(b => b.addEventListener('mouseleave', animateit));
+    window.addEventListener('mousemove', editCursor);
+
+    $("a, .cursor-pointer").hover(
+        function () {
+            $(".cursor").addClass("cursor-active");
+        }, function () {
+            $(".cursor").removeClass("cursor-active");
+        }
+    );
+
+
+    /* =============================================================================
+    -----------------------------  Text Animation  -----------------------------
+    ============================================================================= */
+
+
+          let elements = document.querySelectorAll(".rolling-text");
+
+          elements.forEach((element) => {
+              let innerText = element.innerText;
+              element.innerHTML = "";
+
+              let textContainer = document.createElement("div");
+              textContainer.classList.add("block");
+
+              for (let letter of innerText) {
+                  let span = document.createElement("span");
+                  span.innerText = letter.trim() === "" ? "\xa0" : letter;
+                  span.classList.add("letter");
+                  textContainer.appendChild(span);
+              }
+
+              element.appendChild(textContainer);
+              element.appendChild(textContainer.cloneNode(true));
+          });
+
+          elements.forEach((element) => {
+              element.addEventListener("mouseover", () => {
+                  element.classList.remove("play");
+              });
+          });
+      })();
+    </script>
+
+  <script>
+    
+    $(".counter-number").counterUp({
+        delay: 10,
+        time: 3000,
+    });
+
+  </script>
 </body>
 </html>
