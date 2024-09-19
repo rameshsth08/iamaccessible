@@ -1,6 +1,8 @@
 .br-section{
+  padding: 150px 0;
     .main-marq{
         opacity: 0.1;
+        overflow: hidden;
     }
 }
 .about-hed .caption {
@@ -15,18 +17,30 @@
 .project-box {
     position: relative;
     cursor: pointer;
+    padding-top: 120%;
   }
   .project-box-container {
-    position: relative;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
     overflow: hidden;
     clip-path: inset(-1px);
     will-change: clip-path;
     transition: all 2s cubic-bezier(0.33, 1, 0.68, 1);
     background: #202020;
   }
+    .project-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
   .project-box-container img {
     transition: all 2s cubic-bezier(0.33, 1, 0.68, 1);
   }
+
   .project-box .content-overlay {
     position: absolute;
     width: 100%;
@@ -53,13 +67,12 @@
     color: #cfcfcf;
   }
   .project-box .img-info {
-    display: none;
     position: absolute;
     bottom: 10%;
     width: 0;
     height: 0;
     transform: rotate(-90deg);
-    color: $black;
+    color: $white;
   }
   .project-box .img-info--left {
     left: 0;
